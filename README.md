@@ -1,1 +1,0 @@
-# hackday_01_comunidade_ds
