@@ -151,7 +151,7 @@ Our strategy to solve this challenge was:
 
 - Not considered in this challenge.
 
-**Step 10. Deploy Modelo to Production:**
+**Step 10. Deploy Model to Production:**
 
 - There was no such need in this challenge.
 
@@ -181,7 +181,7 @@ Our strategy to solve this challenge was:
 
 - We proceeded with Random Forest.
 
-# 6. Machine Learning Modelo Performance
+# 6. Machine Learning Model Performance
 
 - The model performance was 0.87 of F1-Score metric (from 0 to 1.0)
 
