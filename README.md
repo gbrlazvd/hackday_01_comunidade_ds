@@ -57,11 +57,11 @@ Our strategy to solve this challenge was:
 
 **Step 01. Data Description:**
 
-![](dataglossary.png)
+![](images/dataglossary.png)
 
 - Since the dataset was in a legible previous format and had no NA, this steps is subsummed with statistical description of numeric values. 
 
-![](numericdescription.png)
+![](images/numericdescription.png)
 
 - No notable discrepancy was found in the statistical summary.
 
@@ -100,13 +100,13 @@ Our strategy to solve this challenge was:
 
 - Numeric attributes (year,household_size and age_of_respondent):
 
-![](multivariatednumeric.png)
+![](images/multivariatednumeric.png)
 
 - No significant correlation is noted for these 3 features.
 
 - Categorical attributes (country,location_type,cellphone_access,gender_of_respondent,relationship_with_head,marital_status,education_level,job_type,bank_account):
 
-![](multivariatedcategorical.png)
+![](images/multivariatedcategorical.png)
 
 - Country has significant correlation with location_type, job_type.
 - Location_type has correlation with job_type.
@@ -122,7 +122,7 @@ Our strategy to solve this challenge was:
 
 - We use the classifier Random Forest to select features by seeing their importance and the standart deviation of the importance.
 
-![](featureselection.png)
+![](images/featureselection.png)
 
 - From the features create, the feature country_zone had a great importance for the model. 
 
@@ -165,7 +165,7 @@ Our strategy to solve this challenge was:
 
 **Hypothesis 02: People with higher degree of education has the marjority of bank accounts**
 
-![](eduleveleda.png)
+![](images/eduleveleda.png)
 
 **True**
 
