@@ -1,8 +1,12 @@
 # Bank Inclusion - Hackday Comunidade DS
 
-## This project aims to predict which user, based in their socio-demographic data, would open a digital bank account.
+## Context
 
-#### This project was made by Dados Inglorious Team.
+#### This project was made by Dados Inglorious Team as a result of a Kaggle Competition created by Comunidade DS, a brazilian comunity and study group of Data Science.
+#### It was a closed competition. Only members of Comunidade DS had the permission to participate and submit the models.
+#### For more details about the competition, like groups, participants and results, check the competition page [Inclusao Financeira na Africa](https://www.kaggle.com/competitions/inclusao-financeira-na-africa).
+
+## This project aims to predict which user, based in their socio-demographic data, would open a digital bank account.
 
 # 1. Business Problem.
 Financial inclusion remains one of the main obstacles to economic and human development in Africa. For example, in Kenya, Rwanda, Tanzania and Uganda, only 9.1 million adults (14% of adults) have access to or use a business bank account.
@@ -187,17 +191,20 @@ Our strategy to solve this challenge was:
 
 # 7. Business Results
 
-- We dont measured business results
+- We didn't measure business results in this step of the project.
 
 # 8. Conclusions
 
+- To hack a Data Science problem in few hours or days in group is a great experience of learning and collaboration worth of training as much as possible
+
 # 9. Lessons Learned
 
-- To hack a Data Science problem in few ours or days in group is a great experience of learning and collaboration worth of training as much as possible.
+- We faced a few git issues that were usefull to learn more about this tool, mostly merge conflicts.
 
 # 10. Next Steps to Improve
 
-- See you in the next hackday.
+- Optimize feature engineering;
+- Test others classification algorithms for categorical data.
 
 # LICENSE
 
