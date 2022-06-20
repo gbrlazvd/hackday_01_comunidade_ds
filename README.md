@@ -102,13 +102,13 @@ Our strategy to solve this challenge was:
 - We proceed with the bivariated EDA for hypothesis testing. We list the main notable insights in the session below. 
 - For the multivariated analysis we divided between numerical and categorical data and plot the correlation matrix (Pearson and V-Kramer correlations).
 
-- Numeric attributes (year,household_size and age_of_respondent):
+- Numeric attributes (year, household_size and age_of_respondent):
 
 ![](images/multivariatednumeric.png)
 
 - No significant correlation is noted for these 3 features.
 
-- Categorical attributes (country,location_type,cellphone_access,gender_of_respondent,relationship_with_head,marital_status,education_level,job_type,bank_account):
+- Categorical attributes (country, location_type, cellphone_access, gender_of_respondent, relationship_with_head, marital_status, education_level, job_type, bank_account):
 
 ![](images/multivariatedcategorical.png)
 
@@ -119,16 +119,16 @@ Our strategy to solve this challenge was:
 
 **Step 05. Data Preparation:**
 
-- We do LabelEncoder and FrequencyEncoder for the features. 
+- We did LabelEncoder and FrequencyEncoder for the features. 
 - We used MinMaxScaler in the features since some algorithms such Logistic Regression requires that the features stay in the same scale.
 
 **Step 06. Feature Selection:**
 
-- We use the classifier Random Forest to select features by seeing their importance and the standart deviation of the importance.
+- We used the classifier Random Forest to select features by seeing their importance and the standard deviation of the importance.
 
 ![](images/featureselection.png)
 
-- From the features create, the feature country_zone had a great importance for the model. 
+- From the features created, the feature country_zone had a great importance for the model. 
 
 **Step 07. Machine Learning Modelling:**
 
