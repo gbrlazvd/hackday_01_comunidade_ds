@@ -23,7 +23,7 @@ Assih also states that there are three main reasons why African nations should f
 
 - Furthermore the output must be in the following format:
 
-![](output.png)
+![](images/output.png)
 
 # 3. Solution Strategy
 
